@@ -30,7 +30,7 @@
 
 // #9
 // Ruby:
-// grocery_list = [bananas, apples, strawberries, spinach, red onions, walnuts, berries]
+// grocery_list = [bananas, apples, strawberries, spinach]
 // grocery_list.each do |item|
 // 	puts item 
 // end
@@ -60,20 +60,39 @@
 // }
 
 // #11
-create_header = function(name){
-  document.write('<h1>' + name + '</h1>')
-}
-create_header('Rachel')
+// // # TODO: Create a h1 header with the person's name in it
+// create_header = function(name){
+//   document.write('<h1>' + name + '</h1>')
+// }
+// create_header('Rachel')
 
-// or..
+// // or..
 
-function create_header(name){
-  document.write('<h1>' + name + '</h1>')
-}
+// function create_header(name){
+//   document.write('<h1>' + name + '</h1>')
+// }
 
-create_header('Rachel')
+// create_header('Rachel')
 
+// // # TODO: Create an image tag with the image_file being the source
+// function create_image(img_file){
+// 	document.write("<img src='" + img_file + "'>")
+// }
+// create_image('Austin&Rachel.jpeg')
 
+// // # TODO: Create a paragraph tag using the arguments age, gender, and job
+// function create_paragraph(age, gender, job){
+// 	document.write("<p>Age: " + String(age) + "; Gender: " + gender + "; Job: " + job + "</p>");
+// };
+
+// create_paragraph(33, 'female', 'Web Developer');
+
+//  // # TODO: By calling the above 3 methods, print out the person's profile information
+//  function create_profile(create_header, create_image, create_paragraph){
+//  	console.log(create_header);
+//  	console.log(create_image);
+//  	console.log(create_paragraph);
+//  };
 
 
 
