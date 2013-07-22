@@ -122,14 +122,81 @@
 // ##########################################
 
 // ##############
-// 31 
+// 34
 // ##############
+// $(document).ready(function(){
+// 	$("div:first").hide();
+//     $("div:first").fadeIn(1000);
+// });
 
+// ##############
+// 35
+// ##############
+// $(document).ready(function(){
+//   $("div.nav-item").click(function(){
+//     alert("Hello! This is freaky!!!!");
+//   });
+// });
 
+// ##############
+// 36
+// ##############
+// Have the handler add an exclamation point at the end of the text.
+// $(document).ready(function(){
+//   $(".main.card").click(function(){
+//    $(".main.card p").append("   !!!!!");
+//   });
+// });
 
+// ##############
+// 37
+// ##############
+// // Change the color of the background if you click anywhere on the background.
+// $(document).ready(function(){
+//   $("body").click(function(){
+//      $(this).css( "background-color", "#00a0b0");
+//   });
+// });
 
+// // ##############
+// // 38
+// // ##############
+// $(document).ready(function(){
+//   $(".main.card").click(function(){
+//      x = $(this).clone();
+//      $(this).append(x);
+//   });
+// });
 
+// ##############
+// 39
+// ##############
+// $(document).ready(function(){
+//   $('div.main.card').click(function(){
+//     $(this).click(function(){
+//       $('div').toggle();
+//     });
+//   });
+// });
 
+// ##############
+// 40
+// // ##############
+// $(document).ready(function(){
+//  $('.main.card').mouseenter(function(){
+//    $(this).css("font-weight", "bold");
+//  }).mouseleave(function(){
+//    $(this).css("font-weight", "normal");
+//  })
+//  $('p').dblclick(function(){
+//    $('.main.card').css("color", "blue");
+//  })
+// });
+
+// ##############
+// 40
+// // ##############
+// Create a form!
 
 
 
