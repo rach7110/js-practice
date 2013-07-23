@@ -194,11 +194,19 @@
 // });
 
 // ##############
-// 40
-// // ##############
+// 41
+// ##############
 // Create a form!
 
 
+$document.ready(function(){
+	$(':submit').click(function(){
+		$('div#error_message').empty();
+		$('div#success_message').empty();
+	}
+		)
+
+})
 
 
 
