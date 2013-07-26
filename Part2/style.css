@@ -1,3 +1,19 @@
+/*This is the css for exercise 41 of the JS-recap lesson */
+input {
+	width: 200px;
+}
+#error_message {
+	width: 300px;
+	background-color: red;
+	color: white;
+}
+#success_message {
+	width: 300px;
+	background-color: green;
+	color: black;
+}
+
+
 /*This reset makes it so all the default CSS values are gone, and we can control everything. It's not always necessary, but doesnt hurt.*/
 *{
 margin: 0;
